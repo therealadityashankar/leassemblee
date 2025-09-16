@@ -5,7 +5,10 @@
 		"build": "next build"
 	},
 	"dependencies": {
+		"@tailwindcss/postcss": "^4.1.13",
+		"daisyui": "^5.1.12",
 		"next": "^15.1.7",
+		"peerjs": "^1.5.5",
 		"react": "^19.0.0",
 		"react-dom": "^19.0.0"
 	},
@@ -13,6 +16,9 @@
 		"@types/node": "^22.13.4",
 		"@types/react": "^19.0.8",
 		"@types/react-dom": "^19.0.3",
+		"autoprefixer": "^10.4.21",
+		"postcss": "^8.5.6",
+		"tailwindcss": "^4.1.13",
 		"typescript": "^5.7.3"
 	}
 }
