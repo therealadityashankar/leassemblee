@@ -11,19 +11,22 @@ furnished to do so, subject to the following conditions:
    in all copies or substantial portions of the Software.
 
 2. Climate Responsibility Clause:
-   a. Any business or organization with annual revenue exceeding USD $50,000 
+
+2.1. Any business or organization with annual revenue exceeding USD $50,000 
       that uses the Software must procure its electricity exclusively from 
       environmentally conscious sources (renewable or otherwise certified as 
       sustainable).
-   b. Any new business or organization with annual revenue exceeding 
+
+2.2. Any new business or organization with annual revenue exceeding 
       USD $1,000,000 that uses the Software must operate as carbon neutral 
       from the time of exceeding this threshold.
-   c. Any existing business or organization with annual revenue exceeding 
+      
+2.3. Any existing business or organization with annual revenue exceeding 
       USD $1,000,000 that uses the Software must achieve carbon neutrality 
       no later than January 1, 2030.
 
-   Failure to comply with the above conditions voids the permission granted 
-   under this License.
+Failure to comply with the above conditions voids the permission granted 
+under this License.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
