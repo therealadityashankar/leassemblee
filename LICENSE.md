@@ -25,6 +25,11 @@ furnished to do so, subject to the following conditions:
       USD $1,000,000 that uses the Software must achieve carbon neutrality 
       no later than January 1, 2030.
 
+3. Peaceful Use Clause:
+   The Software, in whole or in part, may not be used to design, develop, 
+   manufacture, or operate weapons of any kind, nor to support systems 
+   primarily intended for weapons development or deployment.
+
 Failure to comply with the above conditions voids the permission granted 
 under this License.
 

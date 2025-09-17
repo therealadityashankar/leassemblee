@@ -5,12 +5,14 @@
 		"build": "next build"
 	},
 	"dependencies": {
+		"@lerobot/web": "^0.4.0",
 		"@tailwindcss/postcss": "^4.1.13",
 		"daisyui": "^5.1.12",
 		"next": "^15.1.7",
 		"peerjs": "^1.5.5",
 		"react": "^19.0.0",
-		"react-dom": "^19.0.0"
+		"react-dom": "^19.0.0",
+		"react-icons": "^4.11.0"
 	},
 	"devDependencies": {
 		"@types/node": "^22.13.4",
