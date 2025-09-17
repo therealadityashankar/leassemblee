@@ -1,7 +1,7 @@
 "use client"
 
 import { GiRobotAntennas } from "react-icons/gi";
-import { findPort, releaseMotors, calibrate, teleoperate } from "@lerobot/web";
+import { findPort } from "@lerobot/web";
 import { useState } from "react";
 
 export function ConnectRobot({className, minimized, onNext}: {className?: string, minimized?: boolean, onNext?: (robot: any) => void}) {

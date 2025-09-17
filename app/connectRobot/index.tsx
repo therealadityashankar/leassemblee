@@ -1,8 +1,8 @@
 "use client"
 
-import { EnableWebcam } from "./enableWebcam"
-import { ConnectRobot } from "./connectRobot"
-import { EnterCode } from "./enterCode"
+import { EnableWebcam } from "./EnableWebcam"
+import { ConnectRobot } from "./ConnectRobot"
+import { EnterCode } from "./EnterCode"
 import { useState } from "react";
 
 export default function connectRobot({className}: {className?: string}) {
@@ -25,7 +25,7 @@ export default function connectRobot({className}: {className?: string}) {
         <div className={`flex flex-col gap-4 ${className}`}>
             <EnableWebcam onNext={onWebcamsAdded} minimized={step !== 0} completed={step > 0} />
             <ConnectRobot onNext={onRobotConnected} minimized={step !== 1} />
-            <EnterCode minimized={step !== 2} streams={streams} />
+            <EnterCode minimized={step !== 2} streams={streams} robot={robot} />
         </div>
     )
 }
