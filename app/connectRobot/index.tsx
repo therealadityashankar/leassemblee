@@ -24,7 +24,7 @@ export default function connectRobot({className}: {className?: string}) {
     return (
         <div className={`flex flex-col gap-4 ${className}`}>
             <EnableWebcam onNext={onWebcamsAdded} minimized={step !== 0} completed={step > 0} />
-            <ConnectRobot onNext={onRobotConnected} minimized={step !== 1} />
+            <ConnectRobot onNext={onRobotConnected} minimized={step !== 1} completed={step > 1} />
             <EnterCode minimized={step !== 2} streams={streams} robot={robot} />
         </div>
     )

@@ -1,7 +1,7 @@
 "use client";
 
 import React, {useEffect, useRef, useState} from "react";
-import { FiCamera } from 'react-icons/fi';
+import { FiCamera, FiCheck } from 'react-icons/fi';
 
 type Props = {
     className?: string;
@@ -72,13 +72,21 @@ export function EnableWebcam({className, minimized, onCameraAdded, onNext, compl
     return (
         <div className={`card card-border bg-base-100 w-96 ${className ?? ""}`}>
             <div className="card-body">
-                <div className="flex items-center gap-4">
-                    {/* camera icon */}
-                    <div className="w-6 h-6 flex items-center justify-center text-primary">
+                <div className="flex items-center justify-between gap-4">
+                    {/* left content */}
+                    <div className="flex items-center gap-4">
+                        {/* camera icon */}
+                        <div className="w-6 h-6 flex items-center justify-center text-primary">
                         <FiCamera className="w-5 h-5" />
+                        </div>
+                        <h2 className="rounded-full bg-primary text-primary-content p-1.5 h-5 w-5 leading-[0.5]">1</h2>
+                        <h2 className="card-title">Enable your webcam</h2>
                     </div>
-                    <h2 className="rounded-full bg-primary text-primary-content p-1.5 h-5 w-5 leading-[0.5]">1</h2>
-                    <h2 className="card-title">Enable your webcam</h2>
+
+                    {/* right content (check icon) */}
+                    {completed && <div className="w-6 h-6 flex items-center justify-center text-success">
+                        <FiCheck className="w-5 h-5" />
+                    </div>}
                 </div>
 
                 {!minimized && (

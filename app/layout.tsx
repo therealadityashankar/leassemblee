@@ -2,8 +2,8 @@ import './globals.css';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Next.js on GitHub Pages',
-  description: 'Deploy your static Next.js site to GitHub Pages.',
+  title: 'LeAssemblee',
+  description: 'Deploy your static Next.js site to GitHub Pages.'
 };
 
 export default function RootLayout({
@@ -13,6 +13,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" data-theme="cupcake">
+      <head>
+        <link rel="icon" href="/favicon.png" type="image/png"></link>
+      </head>
       <body>{children}</body>
     </html>
   );
