@@ -1,8 +1,8 @@
 # Leassemblee
 
-Try this out yourself at [https://leassemblee.com](https://leassemblee.com) !
+Try this out yourself at [https://leassemblee.com](https://leassemblee.com)
 
-![Leassemblee](public/favicon.png)
+<img src="public/favicon.png" alt="a photo of a remote" height=100 width=100 />
 
 Leassemblee lets you connect a physical robot to a remote controller — entirely in the browser. Plug a robot into a Chromium-based desktop and control it from any other device (phone, tablet, desktop) using a short connection code.
 
